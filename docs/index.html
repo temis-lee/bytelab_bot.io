@@ -254,30 +254,72 @@
             {
                 id: 1,
                 name: "Lenovo T14",
-                price: "",
-                image: "IMG_E0344.JPG", // Placeholder; replace with real image URL
+                price: "#750,999",
+                image: "libs/IMG_E0344.JPG", // Placeholder; replace with real image URL
                 specs: ["Intel Core i7-1165G7", "16GB RAM", "512GB SSD", "touchscreen", "13.3\" InfinityEdge Display", "Up to 19 hours battery", "keyboard Light"]
             },
             {
                 id: 2,
                 name: "HP zed Book Studio",
-                price: "",
-                image: "IMG_E0348.JPG", // Placeholder
+                price: "#800,000",
+                image: "libs/IMG_E0348.JPG", // Placeholder
                 specs: ["Intel Core  i7 8750H", "32GB DDR4", "512 SSD NVME", "15\" Liquid Retina XDR", "Nvidia P1000 4gb Vram", "Up to 22 hours battery"]
             },
             {
                 id: 3,
                 name: "HP Dragonfly G4",
-                price: "",
-                image: "IMG_E0346.JPG", // Placeholder
+                price: "#1,000,000",
+                image: "libs/IMG_E0346.JPG", // Placeholder
                 specs: ["intel core i7", "32GB DDR5 RAM", "1TB NVMe SSD", "13.6\" QHD 165Hz 1920 x 1280 px", "NVIDIA RTX 3070 GPU"]
             },
             {
                 id: 4,
                 name: "HP Spectre x360",
-                price: "$1,199",
-                image: "https://via.placeholder.com/300x200/667eea/white?text=HP+Spectre", // Placeholder
+                price: "#999,900",
+                image: "libs/IMG_0346.PNG", // Placeholder
                 specs: ["Intel Core i7-1260P", "16GB RAM", "512GB SSD", "13.5\" OLED Touchscreen", "2-in-1 Convertible"]
+            },
+            {
+                id: 5,
+                name: "SAMSUNG Galaxy Book 2 pro",
+                price: "#650,000",
+                image: "libs/IMG_0384.PNG", // Placeholder; replace with real image URL
+                specs: ["Intel Core i7-1260P", "16GB DDR4 RAM", "1TB SSD", "touchscreen & Backlit rgb keyboard", "15.0\" Display with intel Iris Xe graphics", "Up to 19 hours battery", "2 - 1 convertible,X360 axis"]
+            },
+            {
+                id: 6,
+                name: "DELL LATITUDE 5450",
+                price: "#210,000",
+                image: "libs/IMG_0385.PNG", // Placeholder; replace with real image URL
+                specs: ["Intel Core i5", "8GB RAM", "128GB SSD", "5th GEN", "2.30GHz", "very low budget"]
+            },
+            {
+                id: 7,
+                name: "DELL TATITUDE 7470",
+                price: "#300,000",
+                image: "libs/IMG_0387.PNG", // Placeholder; replace with real image URL
+                specs: ["Intel Core i7-6th GEN", "8GB RAM", "256GB SSD", "HD CAM & Fingerprint scanner", "backlit keyboard"]
+            },
+            {
+                id: 8,
+                name: "DELL LATITUDE 5310",
+                price: "#390,000",
+                image: "libs/IMG_0390.PNG", // Placeholder; replace with real image URL
+                specs: ["Intel Core i5-10310U", "8GB RAM", "256GB SSD", "NO-touchscreen", "13.0\" FULL HD Display", "keyboard Light"]
+            },
+            {
+                id: 9,
+                name: "DELL XPS 9350",
+                price: "#400,000",
+                image: "libs/IMG_0392.PNG", // Placeholder; replace with real image URL
+                specs: ["INTEL core i5 2.4ghz", "8GB RAM", "256GB SSD", "6th GEN", "13.0\" multiple point UHD touchscreen", "keyboard Light"]
+            },
+            {
+                id: 10,
+                name: "HP PAVILLION",
+                price: "#250,000",
+                image: "libs/IMG_0394.PNG", // Placeholder; replace with real image URL
+                specs: ["Intel Core i5- 7th GEN", "8GB RAM", "128GB SSD", "X-360 convetible", "backlit keyboard"]
             }
         ];
 
@@ -316,7 +358,7 @@
         window.addEventListener('load', () => {
             const loading = document.getElementById('loading');
             loading.style.display = 'block';
-            setTimeout(renderProducts, 1000); 
+            setTimeout(renderProducts, 1500); 
         });
 
         // Optional: Main button for Telegram
